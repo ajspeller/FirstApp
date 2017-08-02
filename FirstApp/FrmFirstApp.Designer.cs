@@ -100,6 +100,7 @@
             this.Name = "FrmFirstApp";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FirstApp";
+            this.Load += new System.EventHandler(this.FrmFirstApp_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PicTitle)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

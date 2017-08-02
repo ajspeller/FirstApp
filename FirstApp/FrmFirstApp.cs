@@ -31,5 +31,10 @@ namespace FirstApp
         {
             this.Close();
         }
+
+        private void FrmFirstApp_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
